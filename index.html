@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Kirang+Haerang&family=Playwrite+IS:wght@100..400&family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+
+    <title>Random Password Generator</title>
 </head>
 <body>
-    <h1>Password Generator</h1>
-    <h3>Choose presets for password and generate</h3>
+    <div id="title">
+    <h1><i>Free</i> <ins>Random</ins> <del>Password</del> <sup>Generator.</sup></h1>
+    <h3>Generate unique passwords to protect your information</h3>
+    </div>
 
+    <div id="container">
     <label for="length">Length</label>
     <input id="length" type="number"><br>
     <button onclick="randomize()">Randomize</button><br>
@@ -24,7 +32,9 @@
 
     <input id="symBols" type="checkbox">
     <label for="symBols">Symbols</label><br>
+    </div>
     
+    <p id="password"></p>
     
     
 </body>

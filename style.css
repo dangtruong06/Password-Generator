@@ -1,0 +1,31 @@
+body{
+    background-color: #93bbd1;
+    font-family: Fuzzy Bubbles;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    
+}
+#title{
+    text-align: center;
+    width:50%;
+    
+}
+h1{
+    font-size: 3em;
+    color: white;
+}
+h3{
+    color: black;
+}
+
+#container{
+    font-size: 2em;
+    border: 2px solid black;
+    width: 50%;
+    float: right;
+    color: black;
+    background-color: white;
+    
+}
