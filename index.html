@@ -13,29 +13,35 @@
 <body>
     <div id="title">
     <h1><i>Free</i> <ins>Random</ins> <del>Password</del> <sup>Generator.</sup></h1>
-    <h3>Generate unique passwords to protect your information</h3>
+    <h2>Generate unique passwords to protect your information</h2><br>
+    <h3><span class="highlight">Choose your own password length, or randomize a length from 6-16 characters</span></h3>
     </div>
 
     <div id="container">
     <label for="length">Length</label>
-    <input id="length" type="number"><br>
-    <button onclick="randomize()">Randomize</button><br>
+    <input id="length" type="number">
+    <button id="randNum" onclick="randomNum()">Randomize</button><br>
     
-    <input id="lowerCase" type="checkbox">
+    <input id="lowerCase" type="checkbox" class="options">
     <label for="lowerCase">Lower Case</label><br>
 
-    <input id="upperCase" type="checkbox">
+    <input id="upperCase" type="checkbox" class="options">
     <label for="upperCase">Upper Case</label><br>
 
-    <input id="numBers" type="checkbox">
+    <input id="numBers" type="checkbox" class="options">
     <label for="numBers">Numbers</label><br>
 
-    <input id="symBols" type="checkbox">
+    <input id="symBols" type="checkbox" class="options">
     <label for="symBols">Symbols</label><br>
+
+    <button id="go" onclick="randomize()">GO</button>
     </div>
     
+    <p id="possibleChars"></p>
     <p id="password"></p>
+
     
+    <script src="index.js"></script>
     
 </body>
 </html>

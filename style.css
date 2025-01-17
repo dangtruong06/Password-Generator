@@ -5,12 +5,10 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 100px;
-    
 }
 #title{
     text-align: center;
-    width:50%;
-    
+    width: 50%;
 }
 h1{
     font-size: 3em;
@@ -22,10 +20,46 @@ h3{
 
 #container{
     font-size: 2em;
+    text-align: center;
     border: 2px solid black;
     width: 50%;
     float: right;
     color: black;
     background-color: white;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
     
+}
+
+#length{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#randNum{
+    font-size: 1.2rem;
+    font-family: Fuzzy Bubbles;
+    background-color:aquamarine
+}
+
+#go{
+    font-size: 3rem;
+    font-family: Fuzzy Bubbles;
+    float: right;
+    background-color: rgb(90, 119, 232);
+}
+
+.options{
+    margin-top: 40px;
+    
+}
+input[type="checkbox"] {
+    width: 25px; /* Set desired width */
+    height: 25px; /* Set desired height */
+}
+
+.highlight{
+    background-color: hsl(205, 100%, 56%);
+    padding: 5px;
 }
