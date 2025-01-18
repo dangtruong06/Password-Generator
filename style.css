@@ -63,3 +63,7 @@ input[type="checkbox"] {
     background-color: hsl(205, 100%, 56%);
     padding: 5px;
 }
+
+#possibleChars{
+    border: 2px solid;
+}
