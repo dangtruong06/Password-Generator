@@ -64,6 +64,8 @@ input[type="checkbox"] {
     padding: 5px;
 }
 
-#possibleChars{
-    border: 2px solid;
+#randomize{
+    background-color:aqua;
+    margin-top: 20px;
+    font-size: 2rem;
 }
